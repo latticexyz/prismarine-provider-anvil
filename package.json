@@ -40,7 +40,7 @@
   },
   "dependencies": {
     "prismarine-block": "^1.21.0",
-    "prismarine-chunk": "github:latticexyz/prismarine-chunk#f759adb126c6e3091e8e7861da9b8b61ccaeec38",
+    "prismarine-chunk": "github:latticexyz/prismarine-chunk#d6bedeea35535ca88c8995aca955acda1140d752",
     "prismarine-nbt": "^2.0.0",
     "uint4": "^0.1.2",
     "vec3": "^0.1.6"
