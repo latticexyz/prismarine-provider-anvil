@@ -116,6 +116,7 @@ module.exports = (ChunkColumn, registry) => {
     column.inhabitedTime = data.InhabitedTime.valueOf()
 
     for (const section of data.sections) {
+      if (!section.block_states) continue
       let bitsPerBlock = Math.ceil(Math.log2(section.block_states.palette.length))
       const bitsPerBiome = Math.ceil(Math.log2(section.biomes.palette.length))
 
